@@ -4,7 +4,8 @@
 object PointObject {
 
   def main(args: Array[String]): Unit = {
-    var point = Point.apply(5)
+    val point = Point(5)
+    //val point = Point.apply(5)  --- above and this line are same.
     point.show
   }
 
