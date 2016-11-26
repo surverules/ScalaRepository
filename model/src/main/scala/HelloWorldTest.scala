@@ -4,7 +4,7 @@
 object HelloWorldTest {
 
   def main(args: Array[String]): Unit = {
-    var hello = new HelloWorld;
+    val hello = new HelloWorld;
     hello.helloWorld
   }
 
